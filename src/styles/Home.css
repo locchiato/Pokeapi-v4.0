@@ -1,0 +1,48 @@
+body {
+  background-color: var(--main-text-color);
+  color: white;
+}
+
+.dh {
+  color: var(--third-text-color);
+}
+
+.pk {
+  color: var(--second-text-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: var(--main-border);
+  background-color: lightslategray;
+  color: black;
+  padding: 25px;
+}
+
+.list > a {
+  border: var(--main-border);
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.list > a:hover {
+  background-color: var(--second-bg-color);
+  transition: background-color 0.2s ease;
+}
+
+h4 {
+  border-bottom: 3px solid white;
+  text-transform: uppercase;
+}

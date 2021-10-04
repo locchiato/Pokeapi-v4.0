@@ -1,0 +1,19 @@
+/* 
+ESPACIO BONUS
+Esto es algo nuevo del CSS, de esta manera se puede declarar variables para
+utilizarlas en distintos lugares de nuestra aplicacion 
+*/
+
+:root {
+  --main-text-color: black;
+  --second-text-color: lightsalmon;
+  --third-text-color: lightblue;
+  --main-bg-color: lightblue;
+  --second-bg-color: lightsalmon;
+  --main-border: red dotted 3px;
+  --width: 35%;
+  --height: 300px;
+  --min-width: 400px;
+  --padding: 20px;
+  --margin: 50px;
+}
